@@ -35,8 +35,8 @@ class MusicLibraryController
         list_songs_by_genre
       when 'play song'
         play_song
-      else
-        "exit"
+      # else
+      #   "exit"
     end
 
     until user_input == 'exit'
