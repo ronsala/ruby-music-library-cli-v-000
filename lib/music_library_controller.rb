@@ -23,9 +23,9 @@ class MusicLibraryController
     user_input = gets.strip
     binding.pry
     case user_input
-      when "exit"
+      when 'exit'
         "exit"
-      when "list songs'
+      when 'list songs'
         list_songs
       when 'list artists'
         list_artists
