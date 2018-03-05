@@ -48,6 +48,7 @@ class MusicLibraryController
       while user_input != 'exit'
         puts "What would you like to do?"
       end
+      "exit"
   end
 
   def list_songs
