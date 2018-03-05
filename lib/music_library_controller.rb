@@ -41,8 +41,8 @@ class MusicLibraryController
         list_songs_by_genre
       when 'play song'
         play_song
-      else
-        puts "What would you like to do?"
+      # else
+      #   puts "What would you like to do?"
       end
 
       until user_input == 'exit'
