@@ -24,8 +24,6 @@ class MusicLibraryController
     until user_input == 'exit'
       puts "What would you like to do?"
     case user_input
-      when 'exit'
-        "exit"
       when 'list songs'
         list_songs
       when 'list artists'
@@ -38,9 +36,6 @@ class MusicLibraryController
         list_songs_by_genre
       when 'play song'
         play_song
-      end
-
-
       end
       "exit"
   end
