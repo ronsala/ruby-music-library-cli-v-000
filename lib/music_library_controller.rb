@@ -45,10 +45,8 @@ class MusicLibraryController
       #   puts "What would you like to do?"
       end
 
-      if user_input != 'exit'
+      while user_input != 'exit'
         puts "What would you like to do?"
-      else
-        "exit"
       end
   end
 
